@@ -36,3 +36,11 @@ To ensure accuracy, this system doesn't just "change a number" in a database. It
 This project is configured for deployment on **Render**.
 * **Root Directory:** `project-1 (BankingSystem)`
 * **Node Version:** 18.x or higher
+
+## 🚀 Live API Link
+The backend is deployed at: [https://banking-system-tlgs.onrender.com](https://banking-system-tlgs.onrender.com)
+
+### 🛠️ API Endpoints
+- **GET** `/` - Check if server is live
+- **POST** `/api/users/register` - Register a new account
+- **POST** `/api/users/login` - User login
