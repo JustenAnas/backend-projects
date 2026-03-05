@@ -8,7 +8,9 @@ const app = express();
 app.use(express.json())
 app.use(cookieParser())
 
- 
+ app.get("/", (req, res) => {
+  res.send("Server is live and kicking!");
+});
 
 app.use("/api/auth",authRouter)
 app.use("/api/accounts",accountRouter)
